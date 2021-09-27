@@ -1,0 +1,8 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* Normally font size is 16px but we want 10px so we do 62.5% */
+}
