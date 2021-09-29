@@ -19,7 +19,7 @@ body,
 .parent {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -38,10 +38,11 @@ body,
 
 .header-2 {
   font-size: 4rem;
-  color: red;
+  color: lightblue;
+  margin-bottom: 4rem;
 }
 
 .img-1 {
-  height: 10em;
-  width: auto;
+  height: auto;
+  width: 85%;
 }
