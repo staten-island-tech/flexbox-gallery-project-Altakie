@@ -20,7 +20,11 @@ body,
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+<<<<<<< HEAD
   flex-flow: row wrap;
+=======
+  flex-wrap: wrap;
+>>>>>>> d8067d1ef8b3ccc2af65fc0936055d1656b4380f
 }
 
 .test-1 {
