@@ -37,6 +37,8 @@ body,
   padding-top: 2rem;
 }
 
+/* make header-2 block element in html */
+
 .header-2 {
   font-size: 4rem;
   color: lightblue;
