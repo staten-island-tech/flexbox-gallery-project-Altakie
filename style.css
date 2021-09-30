@@ -37,10 +37,14 @@ body,
   padding-top: 2rem;
 }
 
+/* Make Header-2 Into Block Element */
+
 .header-2 {
   font-size: 4rem;
   color: lightblue;
   margin-bottom: 4rem;
+  border-style: solid;
+  width: 85%;
 }
 
 .img-1 {
