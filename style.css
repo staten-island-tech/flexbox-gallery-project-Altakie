@@ -11,7 +11,6 @@ body,
 }
 
 .header-1 {
-  margin-top: 10rem;
   font-size: 10rem;
   color: white;
   text-align: center;
@@ -20,7 +19,7 @@ body,
 .parent {
   display: flex;
   justify-content: space-evenly;
-  /* align-items: flex-start; */
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -33,7 +32,7 @@ body,
   border-width: 0.5rem;
   text-align: center;
   margin-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 50rem;
   padding-top: 2rem;
 }
 
@@ -50,11 +49,4 @@ body,
 .img-1 {
   height: auto;
   width: 85%;
-  position: relative;
-}
-
-.text-1 {
-  font-size: 2rem;
-  position: relative;
-  top: 2rem;
 }
