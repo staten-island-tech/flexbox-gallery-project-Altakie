@@ -22,7 +22,7 @@ body,
 .parent {
   display: flex;
   justify-content: space-evenly;
-  align-items: baseline;
+  align-items: stretch;
   flex-flow: row wrap;
 }
 
