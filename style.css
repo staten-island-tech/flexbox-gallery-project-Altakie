@@ -12,6 +12,7 @@ body,
 
 .header-1 {
   margin-top: 10rem;
+  margin-bottom: 10rem;
   font-size: 20rem;
   color: cyan;
   text-align: center;
@@ -33,7 +34,7 @@ body,
   border-style: solid;
   border-width: 0.5rem;
   text-align: center;
-  margin-top: 10rem;
+  margin-bottom: 10rem;
   padding-bottom: 6rem;
   padding-top: 2rem;
   border-radius: 3rem;
