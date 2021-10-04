@@ -26,7 +26,7 @@ body,
   flex-flow: row wrap;
 }
 
-.test-1 {
+.flex-1 {
   font-size: 4rem;
   color: white;
   width: 28%;
@@ -48,6 +48,7 @@ body,
   color: turquoise;
   margin-bottom: 4rem;
   font-family: "Gemunu Libre", sans-serif;
+  text-decoration: underline;
 }
 
 .img-1 {
@@ -62,4 +63,7 @@ body,
   position: relative;
   top: 2rem;
   font-family: "Gemunu Libre", sans-serif;
+}
+
+.button-1 {
 }
