@@ -60,10 +60,23 @@ body,
 
 .text-1 {
   font-size: 2rem;
-  position: relative;
-  top: 2rem;
+  margin-top: 2rem;
   font-family: "Gemunu Libre", sans-serif;
+  margin-bottom: 2rem;
 }
 
 .button-1 {
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-style: ridge;
+  border-color: lightgreen;
+  background-color: lightgreen;
+  color: black;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 2rem;
+}
+
+.button-1:hover {
+  transform: scale(1.5);
 }
