@@ -66,6 +66,9 @@ body,
   background-color: transparent;
 }
 
+.header-2:hover {
+}
+
 .img-1 {
   height: auto;
   width: 85%;
@@ -79,6 +82,7 @@ body,
 
 .img-1:hover {
   width: 90%;
+  transform: rotate(0.01turn);
 }
 
 .text-1 {
