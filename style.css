@@ -17,6 +17,15 @@ body,
   color: cyan;
   text-align: center;
   font-family: "Gemunu Libre", sans-serif;
+  transition: all 0.3s;
+  border-style: solid;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-1:hover {
+  width: 33%;
 }
 
 .parent {
@@ -43,7 +52,7 @@ body,
 }
 
 .flex-1:hover {
-  /* transform: scale(1.2); */
+  background-color: grey;
 }
 
 .header-2 {
@@ -90,6 +99,8 @@ body,
   display: block;
   justify-self: center;
   width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-1:hover {
