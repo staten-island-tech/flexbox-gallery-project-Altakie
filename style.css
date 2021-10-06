@@ -39,9 +39,12 @@ body,
   padding-top: 2rem;
   border-radius: 3rem;
   box-shadow: 0rem 0rem 3.5rem 1rem white;
+  transition: all 0.3s;
 }
 
-/* make header-2 block element in html (Actually nvm)*/
+.flex-1:hover {
+  /* transform: scale(1.2); */
+}
 
 .header-2 {
   font-size: 3rem;
@@ -58,11 +61,20 @@ body,
   border-radius: 2rem;
 }
 
+.img-1:hover {
+  transform: translate(10);
+}
+
 .text-1 {
   font-size: 2rem;
   margin-top: 2rem;
   font-family: "Gemunu Libre", sans-serif;
   margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.text-1:hover {
+  color: green;
 }
 
 .button-1 {
@@ -75,13 +87,12 @@ body,
   color: black;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-radius: 2rem;
+  display: block;
+  justify-self: center;
+  width: 25%;
 }
 
-/* .button-1:active {
-  box-shadow: inset 1rem 1rem 0.75rem orchid;
-} */
-
 .button-1:hover {
-  transform: scale(10);
+  transform: scale(1.5);
   background-color: white;
 }
