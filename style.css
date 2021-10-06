@@ -26,6 +26,8 @@ body,
 
 .header-1:hover {
   width: 33%;
+  transform: translate(0rem, -5rem);
+  border-color: gold;
 }
 
 .parent {
@@ -61,6 +63,7 @@ body,
   margin-bottom: 4rem;
   font-family: "Gemunu Libre", sans-serif;
   text-decoration: underline;
+  background-color: transparent;
 }
 
 .img-1 {
@@ -68,10 +71,14 @@ body,
   width: 85%;
   position: relative;
   border-radius: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s;
 }
 
 .img-1:hover {
-  transform: translate(10);
+  width: 90%;
 }
 
 .text-1 {
@@ -80,10 +87,11 @@ body,
   font-family: "Gemunu Libre", sans-serif;
   margin-bottom: 2rem;
   transition: all 0.3s;
+  background-color: transparent;
 }
 
 .text-1:hover {
-  color: green;
+  color: gold;
 }
 
 .button-1 {
