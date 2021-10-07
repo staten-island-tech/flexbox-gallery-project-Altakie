@@ -6,7 +6,9 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%; /* Normally font size is 16px but we want 10px so we do 62.5% */
+}
 
+body {
   background-color: black;
 }
 
@@ -24,13 +26,16 @@ body,
   margin-right: auto;
   margin-left: auto;
   border-radius: 2rem;
-  background-color: darkgrey;
+  animation: page-load 1.5s forwards;
+  position: relative;
+  box-shadow: 0rem 0rem 3.5rem 1rem white;
 }
 
 .header-1:hover {
   width: 33%;
   transform: translate(0rem, -5rem);
   border-color: gold;
+  box-shadow: 0rem 0rem 3.5rem 1rem turquoise;
 }
 
 .parent {
@@ -54,10 +59,13 @@ body,
   border-radius: 3rem;
   box-shadow: 0rem 0rem 3.5rem 1rem white;
   transition: all 0.3s;
+  animation: page-load 1.5s forwards;
+  position: relative;
 }
 
 .flex-1:hover {
-  background-color: grey;
+  background-color: rgb(97, 97, 97);
+  box-shadow: 0rem 0rem 3.5rem 1rem turquoise;
 }
 
 .header-2 {
@@ -121,4 +129,14 @@ body,
 .button-1:hover {
   transform: scale(1.3);
   background-color: white;
+}
+
+@keyframes page-load {
+  0% {
+    top: 40%;
+  }
+
+  100% {
+    top: 0%;
+  }
 }
