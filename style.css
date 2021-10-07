@@ -10,6 +10,8 @@ body,
 
 body {
   background-color: black;
+  animation: page-load 1.5s forwards;
+  position: relative;
 }
 
 .header-1 {
@@ -26,8 +28,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   border-radius: 2rem;
-  animation: page-load 1.5s forwards;
-  position: relative;
   box-shadow: 0rem 0rem 3.5rem 1rem white;
 }
 
@@ -59,8 +59,6 @@ body {
   border-radius: 3rem;
   box-shadow: 0rem 0rem 3.5rem 1rem white;
   transition: all 0.3s;
-  animation: page-load 1.5s forwards;
-  position: relative;
 }
 
 .flex-1:hover {
@@ -133,7 +131,7 @@ body {
 
 @keyframes page-load {
   0% {
-    top: 40%;
+    top: 150%;
   }
 
   100% {
