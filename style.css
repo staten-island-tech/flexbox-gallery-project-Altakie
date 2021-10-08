@@ -10,7 +10,7 @@ body,
 
 body {
   background-color: black;
-  animation: page-load 1.5s forwards;
+  animation: page-load 3s forwards;
   position: relative;
 }
 
@@ -132,9 +132,18 @@ body {
 @keyframes page-load {
   0% {
     top: 150%;
+    opacity: 0%;
+    background-color: white;
   }
 
   100% {
     top: 0%;
+    opacity: 100%;
+  }
+}
+
+@media (max-height: 391px) {
+  body {
+    font-size: 10%;
   }
 }
