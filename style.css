@@ -145,7 +145,7 @@ body {
   html,
   body,
   * {
-    /* font-size: 25%; */
+    font-size: 55%;
   }
   .flex-1 {
     width: 80%;
@@ -160,6 +160,6 @@ body {
     width: 80%;
   }
   .header-1 {
-    font-size: 5rem;
+    font-size: 7.5rem;
   }
 }
